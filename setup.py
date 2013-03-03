@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.13.19.2'
+version = '2.13.19.3'
 
 setup(name='hoka.adapter.zoperoot',
       version=version,
@@ -21,7 +21,7 @@ setup(name='hoka.adapter.zoperoot',
       keywords='adapter zope2 root zope3 hoka',
       author='Kai Hoppert',
       author_email='kai.hoppert@online.de',
-      url='http://eggserver.tcis.de/hoka.adapter.zoperoot',
+      url='https://github.com/hoka/hoka.adapter.zoperoot',
       license='GPL version 2',
       packages=find_packages(),
       namespace_packages=['hoka','hoka.adapter'],
